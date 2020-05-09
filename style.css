@@ -28,7 +28,7 @@ div.background{
   position: fixed;
   height: 100%;
   z-index: -1;
-  opacity: .8;
+  opacity: 1;
 }
 
 
