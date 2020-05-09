@@ -1,5 +1,6 @@
 :root{
   --primary-color: #681414;
+  --sec: #313131;
 }
 
 * {
@@ -23,8 +24,8 @@ body {
 }
 
 div.background{
-  /* background: url('images/bg.jpg') no-repeat center center /cover; */
-  background: url('https://source.unsplash.com/evlkOfkQ5rE/1600x900') no-repeat center center /cover;
+  background: url('images/bg.jpg') no-repeat center center /cover;
+  /* background: url('https://source.unsplash.com/evlkOfkQ5rE/1600x900') no-repeat center center /cover; */
   width: 100vw;
   position: fixed;
   height: 100%;
@@ -240,6 +241,47 @@ input::placeholder{
   right: 0;
   max-height: 100%;
   display: block;
+}
+
+.modal{
+  position: relative;
+  background: #d6d6d6;
+  max-width: 600px;
+  /* border-radius: 10p; */
+  margin:auto;
+  padding: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+.modal .cancel{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.modal .cancel a{
+  color: red;
+}
+
+
+.modal h3{
+  border: none;
+  text-transform: capitalize;
+}
+
+.modal ul{
+  list-style: none;
+}
+
+.modal ul li{
+  padding: 20px;
+}
+
+.modal ul li a{
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 footer{
